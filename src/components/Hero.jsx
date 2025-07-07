@@ -43,7 +43,7 @@ export default function Hero() {
       </div>
 
       {/* Logo - Mobile */}
-      <div className="sm:hidden fixed top-[12%] left-1/2 -translate-x-1/2 z-20 text-center">
+      <div className="sm:hidden fixed top-[16%] left-1/2 -translate-x-1/2 z-20 text-center">
         <img
           src="/assets/logo.png"
           alt="INQUA Logo"
@@ -116,7 +116,7 @@ export default function Hero() {
       {/* Date + Button - Mobile */}
       <motion.div
         style={{ opacity: bottomOpacity }}
-        className="sm:hidden fixed bottom-[500px] w-full z-[60] flex flex-col items-center space-y-4"
+        className="sm:hidden fixed bottom-[450px] w-full z-[60] flex flex-col items-center space-y-4"
       >
         <div className="text-white font-semibold text-center leading-tight drop-shadow-sm">
           <div className="text-2xl">September</div>
