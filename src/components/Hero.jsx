@@ -116,7 +116,7 @@ export default function Hero() {
       {/* Date + Button - Mobile */}
       <motion.div
         style={{ opacity: bottomOpacity }}
-        className="sm:hidden fixed bottom-[375px] w-full z-[60] flex flex-col items-center space-y-4"
+        className="sm:hidden fixed bottom-[400px] w-full z-[60] flex flex-col items-center space-y-4"
       >
         <div className="text-white font-semibold text-center leading-tight drop-shadow-sm">
           <div className="text-2xl">September</div>
